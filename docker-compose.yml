@@ -1,7 +1,7 @@
 version: "3.2"
 volumes:
-  - verdaccio_conf: {}
-  - verdaccio_storage: {}
+  verdaccio_conf: {}
+  verdaccio_storage: {}
 networks:
   # docker create network proxy-tier
   proxy-tier:
